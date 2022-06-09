@@ -6,14 +6,14 @@ def way():
 
 
 def dictionary(path):
-    res = {}
-    for filename in os.listdir(path):
-        current_path = os.path.join(path, filename)
-        if os.path.isdir(current_path):
-            res.update(dictionary(current_path))
-        else:
-            res.update({current_path: os.path.getsize(current_path)})
-    return res
+  res = {}
+  for filename in os.listdir(path):
+      current_path = os.path.join(path, filename)
+      if os.path.isdir(current_path):
+          res.update(dictionary(current_path))
+      else:
+          res.update({current_path: os.path.getsize(current_path)})
+      return res
 
 
 def duplicate():
@@ -25,4 +25,4 @@ def my_print():
 
 
 if __name__ == '__main__':
-    pass
+  pass
