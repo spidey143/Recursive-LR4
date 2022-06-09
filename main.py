@@ -2,7 +2,7 @@ import os
 
 
 def way():
-    pass
+  pass
 
 
 def dictionary(path):
@@ -17,11 +17,11 @@ def dictionary(path):
 
 
 def duplicate():
-    pass
+  pass
 
 
 def my_print():
-    pass
+  pass
 
 
 if __name__ == '__main__':
