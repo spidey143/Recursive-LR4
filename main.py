@@ -13,7 +13,7 @@ def dictionary(path):
           res.update(dictionary(current_path))
       else:
           res.update({current_path: os.path.getsize(current_path)})
-      return res
+  return res
 
 
 def duplicate():
